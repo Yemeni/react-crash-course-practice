@@ -10,7 +10,7 @@ import JobsPage from "./Pages/JobsPage.jsx";
 import NotFoundPage from "./Pages/NotFoundPage.jsx";
 import JobPage, {jobLoader} from "./Pages/JobPage.jsx";
 import AddJobPage from "./Pages/AddJobPage.jsx";
-
+import EditJobPage from "./Pages/EditJobPage.jsx";
 
 const App = () => {
 
@@ -32,6 +32,17 @@ const App = () => {
         });
     }
 
+    const updateJob = async (job) => {
+        const response = await fetch(`/api/jobs/${job.id}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(job)
+        });
+
+    }
+
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route Path='/' element={<MainLayout/>}>, // Error: 'Path' is not defined  react/jsx-no-undef
@@ -39,6 +50,7 @@ const router = createBrowserRouter(
             <Route path='/jobs' element={<JobsPage/>}/>
             <Route path='/add-job' element={<AddJobPage addJobSubmit={addJob}/>}/>
             <Route path='/jobs/:id' element={<JobPage deleteJob={deleteJob}/>} loader={jobLoader}/>
+            <Route path='/edit-job/:id' element={<EditJobPage updateJobSubmit={updateJob}/>} loader={jobLoader}/>
             <Route path='/*' element={<NotFoundPage/>}/>
         </Route>
     )
