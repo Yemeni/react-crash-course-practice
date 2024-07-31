@@ -21,10 +21,9 @@ const JobListings = ({ isHome = false}) => {
 
             } catch (err) {
                 console.error(err);
-                toast.error('Failed to fetch jobs');
+                toast.error('Failed to fetch jobs contact Admin');
             } finally {
                 setLoading(false);
-                toast.success('Jobs fetched successfully');
             }
         }
         fetchJobs();
