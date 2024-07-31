@@ -85,17 +85,199 @@
       }
     },
     {
-      "id": "daf2",
-      "title": "Test job 1",
+      "id": "7",
+      "title": "Junior Front-End Developer",
       "type": "Full-Time",
-      "description": "This is a test job",
-      "salary": "$50K - 60K",
-      "location": "Testonia",
+      "description": "We are looking for a Junior Front-End Developer to join our growing team in San Francisco, CA. This is a great opportunity for recent graduates to start their career in a dynamic and innovative environment.",
+      "location": "San Francisco, CA",
+      "salary": "$50K - $60K",
       "company": {
-        "name": "Test Inc",
-        "description": "sexy company",
-        "contactEmail": "test@tost.cox",
-        "contactPhone": "696969696996"
+        "name": "Tech Innovations",
+        "description": "Tech Innovations is a pioneering company in the field of technology and software development. Our mission is to create cutting-edge solutions that help businesses thrive in the digital age.",
+        "contactEmail": "contact@techinnovations.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "8",
+      "title": "React Native Mobile Developer",
+      "type": "Full-Time",
+      "description": "Join our mobile development team in Austin, TX. We are seeking a passionate React Native Developer who is excited about creating seamless mobile experiences.",
+      "location": "Austin, TX",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Mobile Masterminds",
+        "description": "Mobile Masterminds is a leader in mobile application development, dedicated to delivering top-quality apps that users love. We value innovation, creativity, and teamwork.",
+        "contactEmail": "contact@mobilemasterminds.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Senior Full Stack Developer",
+      "type": "Full-Time",
+      "description": "We are seeking an experienced Full Stack Developer to lead our development team in Seattle, WA. The ideal candidate will have strong expertise in both front-end and back-end technologies.",
+      "location": "Seattle, WA",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "Cloud Nexus",
+        "description": "Cloud Nexus specializes in providing cloud-based solutions for businesses. Our team is dedicated to creating innovative products that help our clients succeed in the digital world.",
+        "contactEmail": "contact@cloudnexus.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "10",
+      "title": "UI/UX Designer",
+      "type": "Part-Time",
+      "description": "We are looking for a talented UI/UX Designer to join our creative team in Chicago, IL. This part-time position offers flexible hours and the opportunity to work on a variety of exciting projects.",
+      "location": "Chicago, IL",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Creative Sparks",
+        "description": "Creative Sparks is a design agency specializing in creating visually stunning and user-friendly digital experiences. Our team is passionate about design and committed to excellence.",
+        "contactEmail": "contact@creativesparks.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Back-End Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Back-End Developer in Denver, CO. We are looking for someone with a strong background in server-side technologies and database management.",
+      "location": "Denver, CO",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Data Dynamics",
+        "description": "Data Dynamics is a technology company focused on developing powerful back-end solutions for our clients. We offer a collaborative work environment and opportunities for professional growth.",
+        "contactEmail": "contact@datadynamics.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Front-End Developer Intern",
+      "type": "Internship",
+      "description": "We are seeking a Front-End Developer Intern to join our team in San Diego, CA. This internship is perfect for students or recent graduates looking to gain hands-on experience in web development.",
+      "location": "San Diego, CA",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Web Wizards",
+        "description": "Web Wizards is a digital agency that specializes in web development and online marketing. We are committed to providing our clients with exceptional service and innovative solutions.",
+        "contactEmail": "contact@webwizards.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "13",
+      "title": "React Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a React Developer to join our team in Las Vegas, NV. The ideal candidate will have experience building responsive web applications and a strong understanding of modern JavaScript frameworks.",
+      "location": "Las Vegas, NV",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Vegas Tech",
+        "description": "Vegas Tech is a rapidly growing tech company in the heart of Las Vegas. We specialize in developing innovative web solutions for a wide range of industries.",
+        "contactEmail": "contact@vegastech.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Full Stack JavaScript Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Full Stack JavaScript Developer in Philadelphia, PA. We are looking for a talented individual with expertise in both front-end and back-end JavaScript frameworks.",
+      "location": "Philadelphia, PA",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Philly Devs",
+        "description": "Philly Devs is a technology company dedicated to building robust and scalable web applications. We offer a collaborative work environment and opportunities for professional development.",
+        "contactEmail": "contact@phillydevs.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a Junior React Developer to join our team in Raleigh, NC. This is a great opportunity for individuals who are passionate about front-end development and eager to learn.",
+      "location": "Raleigh, NC",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Raleigh Tech",
+        "description": "Raleigh Tech is a leading provider of software development services. Our team is dedicated to creating innovative solutions that help businesses succeed.",
+        "contactEmail": "contact@raleightech.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "16",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Senior React Developer in Minneapolis, MN. We are looking for an experienced developer with a strong background in building complex web applications.",
+      "location": "Minneapolis, MN",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "North Star Tech",
+        "description": "North Star Tech is a technology company focused on developing innovative software solutions. We offer a collaborative work environment and opportunities for career growth.",
+        "contactEmail": "contact@northstartech.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Front-End Web Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a Front-End Web Developer to join our team in Detroit, MI. The ideal candidate will have a passion for creating beautiful and responsive web designs.",
+      "location": "Detroit, MI",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Motor City Devs",
+        "description": "Motor City Devs is a tech company based in Detroit, specializing in web development and digital marketing. We are dedicated to providing our clients with top-notch service and innovative solutions.",
+        "contactEmail": "contact@motorcitydevs.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Lead React Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a Lead React Developer to join our team in Nashville, TN. The ideal candidate will have extensive experience with React and a passion for leading development teams.",
+      "location": "Nashville, TN",
+      "salary": "$150K - $175K",
+      "company": {
+        "name": "Music City Tech",
+        "description": "Music City Tech is a leading technology company in Nashville, specializing in software development and digital solutions. We value innovation, creativity, and teamwork.",
+        "contactEmail": "contact@musiccitytech.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "19",
+      "title": "React.js Engineer",
+      "type": "Full-Time",
+      "description": "Join our team as a React.js Engineer in Orlando, FL. We are looking for a skilled developer who is excited about creating innovative web applications.",
+      "location": "Orlando, FL",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Sunshine Tech",
+        "description": "Sunshine Tech is a technology company based in Orlando, focused on developing cutting-edge web solutions. We offer a supportive and collaborative work environment.",
+        "contactEmail": "contact@sunshinetech.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Full Stack Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a Full Stack Developer to join our team in Charlotte, NC. The ideal candidate will have strong skills in both front-end and back-end technologies.",
+      "location": "Charlotte, NC",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Queen City Tech",
+        "description": "Queen City Tech is a technology company in Charlotte, specializing in software development and IT solutions. We are dedicated to providing our clients with innovative and reliable solutions.",
+        "contactEmail": "contact@queencitytech.com",
+        "contactPhone": "555-555-5555"
       }
     }
   ]
